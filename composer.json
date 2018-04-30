@@ -1,0 +1,26 @@
+{
+    "name": "intendit/foxycart",
+    "description": "Foxycart hmac validation and configuration for foxycart function.",
+    "type": "bolt-extension",
+    "keywords": [
+    ],
+    "require": {
+        "bolt/bolt": "^3.0"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Santino Petrovic",
+            "email": "santino.petrovic@intendit.se"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Bolt\\Extension\\intendit\\foxycart\\": "src"
+        }
+    },
+    "extra": {
+        "bolt-assets": "web",
+        "bolt-class": "Bolt\\Extension\\intendit\\foxycart\\foxycartExtension"
+    }
+}
