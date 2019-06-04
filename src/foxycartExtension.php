@@ -229,10 +229,9 @@ EOM;
         $var_code = $args[2];
         $var_name = $args[0];
         $var_value = $args[1];
-        if (strlen($args[4]) > 0) {
-            $for_value = true;
-        } else {    
         $for_value = false;
+        if (isset($args[4]) && strlen($args[4]) > 0) {
+            $for_value = true;
         }
         $var_parent_code = "";
         $config = $this->getConfig();
