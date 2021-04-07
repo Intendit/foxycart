@@ -1,2 +1,19 @@
-api_key: key
-foxycart_cart_url: URL
+# Your store secret key. Used for encryptions for your products.
+# api_key: ADD_STORE_SECRET_HERE
+
+# Your store sub domain.
+# foxycart_cart_url: ADD_STORE_SUB_DOMAIN_HERE
+
+# Your products contenttype. Used for JSON webhook stock update.
+# contenttype_foxy: produkter
+
+# Your products categories. Used for JSON webhook stock update.
+# contenttype_category: attributkategorier
+
+# Your products values. Used for JSON webhook stock update.
+# contenttype_values: attributvalues
+
+# enable_foxycart: true
+
+# This is JSON webhook for updating stock after a purchase.
+#encryption_key: ADD_JSON_WEBHOOK_HERE
