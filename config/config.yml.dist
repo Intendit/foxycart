@@ -2,20 +2,20 @@
 # You get your key by loggin into Foxycart, go to: (advanced settings) https://admin.foxycart.com/admin.php?ThisAction=EditAdvancedFeatures , and then enable 'would you like to enable cart validation?'. You should have the key on same page in 'store secret'.
 # api_key: ADD_STORE_SECRET_HERE
 
-# Your store sub domain.
+# Your store sub domain. Login into Foxycart account, go to: (store settings) https://admin.foxycart.com/admin.php?ThisAction=EditStore . It lies in 'store sub domain'.
 # foxycart_cart_url: ADD_STORE_SUB_DOMAIN_HERE
 
 # Your products contenttype. Used for JSON webhook stock update.
 # contenttype_foxy: produkter
 
-# Your products categories. Used for JSON webhook stock update.
+# Your products categories contenttype. Used for JSON webhook stock update.
 # contenttype_category: attributkategorier
 
-# Your products values. Used for JSON webhook stock update.
+# Your products values contenttype. Used for JSON webhook stock update.
 # contenttype_values: attributvalues
 
-# Here you can enable Foxycart scripts to be enabled on website
+# Here you can enable Foxycart scripts to be enabled on website.
 # enable_foxycart: true
 
-# This is JSON webhook for making it available for Foxycart to update stock after a purchase.
+# This is JSON webhook for making it available for Foxycart to update stock after a purchase. You enable this by loggin into Foxycart, go to: (Integrations) https://admin.foxycart.com/admin.php?ThisAction=AddIntegration , then enable 'JSON WEBHOOK' then click on 'Update Webhooks'. 'Encryption key' field will reveal itself. copy the content and paste it to encryption_key on foxycart bolt config.
 #encryption_key: ADD_JSON_WEBHOOK_HERE
