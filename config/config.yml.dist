@@ -1,4 +1,5 @@
-# Your store secret key. Used for encryptions for your products.
+# Your Foxycart store secret key. Used for encryptions for your products.
+# You get your key by loggin into Foxycart, go to: (advanced settings) https://admin.foxycart.com/admin.php?ThisAction=EditAdvancedFeatures , and then enable 'would you like to enable cart validation?'. You should have the key on same page in 'store secret'.
 # api_key: ADD_STORE_SECRET_HERE
 
 # Your store sub domain.
@@ -13,7 +14,8 @@
 # Your products values. Used for JSON webhook stock update.
 # contenttype_values: attributvalues
 
+# Here you can enable Foxycart scripts to be enabled on website
 # enable_foxycart: true
 
-# This is JSON webhook for updating stock after a purchase.
+# This is JSON webhook for making it available for Foxycart to update stock after a purchase.
 #encryption_key: ADD_JSON_WEBHOOK_HERE
